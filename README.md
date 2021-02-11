@@ -29,4 +29,6 @@ Files:
 
 6- Dowload: you can Downlaod any file from the platform
 
+Threat handling: I handled csrf by adding csrf token to my post and which needs to be validated on server side
+                 For SQL injection i Used Prepared statement and Escaping strings before they are added to query
 PHP 5.6.4
