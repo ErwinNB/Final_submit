@@ -31,6 +31,8 @@ Files:
 
 Threat handling: I handled csrf by adding csrf token to my post and which needs to be validated on server side
                  For SQL injection i Used Prepared statement and Escaping strings before they are added to query
+                 
+                 
 PHP 5.6.4
 Bootstrap 4.5.2
 Jquery 3.5.1
